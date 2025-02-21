@@ -7,3 +7,5 @@ function total()
   return veg + fruits;
 }
 total();
+console.log(veg);
+
