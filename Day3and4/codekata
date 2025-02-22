@@ -1,0 +1,18 @@
+// Import readline module to read console input
+const readline = require('readline');
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+// Prompting the user for an integer
+rl.question('', (input) => {
+  // Converting the input to an integer
+  const number = parseInt(input);
+
+  // Printing the integer value
+  console.log(number);
+
+  // Close the readline interface
+  rl.close();
+});
